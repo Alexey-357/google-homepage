@@ -1,0 +1,159 @@
+body {
+    position: relative;
+}
+nav {
+    margin: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+
+
+}
+li {
+    float: left;
+    padding:10px;
+    
+    
+}
+.RightNav  {
+    float:right;
+}
+
+
+
+
+li a {
+    display: block;
+    text-align: center;
+    
+    text-decoration: none;
+    
+   
+}
+li a:hover {
+ text-decoration-line:underline;
+ 
+  }
+  #dots{
+      width:40px;
+      height: 30px;
+     
+  }
+ a:link,a:visited {
+     font-size: 14px;
+     font-family: arial,sans-serif;
+     color: black;
+ } 
+ #dotsjpg{
+     margin-top: 0;
+     padding-top: 5px;
+ }
+#logo {
+    position:absolute;
+    top:175px;
+    left: 666px;
+
+}  
+#loginLink{
+    color: white;
+}
+
+#logInButton{
+    
+   border-radius: 10px;
+    background-color: #2b7de9;
+    padding: 10px 40px;
+}
+#FormInput {
+    position: absolute;
+    left: 570px;
+    top:300px;
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 37%;
+    
+}
+
+
+
+
+#searchLabel{
+    position: relative;
+    left: 113;
+    height: 23px;
+    width: 23px;
+    padding: 5px 0px 0px 5px;
+}
+#searchButton {
+    width: 110px;
+    position: absolute;
+    left: 100px ;
+    top:100px;
+}
+#txtInput { 
+    position: relative;
+    bottom:5px;
+    width : 90%;
+    height: 13px;
+    padding: 5px 3px 0px 5px;
+    border-style: none;
+
+}
+#searchButton {
+    background-color: greenyellow;
+    
+}
+#luckyButton{
+    background-color: rgb(236,111,0);
+    width: 110px;
+    position: absolute;
+    left:250px;
+    top:100px;
+}
+#luckytxt{
+  overflow: auto;
+  text-decoration-style: none;
+}
+footer {
+    
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    background-color: #f0f1ee;
+}
+#topFooter {
+    
+    height: 30%;
+    
+}
+#bottomFooter{
+
+height: 100%;
+border-top-style:solid;
+border-width:1px; 
+border-top-color: rgb(214, 207, 207);
+}
+#Germany{
+    padding-left: 40px;
+    font-family: arial,sanf-serif;
+}
+#footerListe {
+    
+    
+}
+.rightFooter {
+    float:right;
+}
+#googleOffered {
+    position: absolute;
+    top: 440px;
+    left:45%;
+    font-size: 13px;
+    
+}
